@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(255, 10, 10);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.logo {
+    width: 240px;
+    height: 140px;
+    margin-left: 40px;
+}
+
+.procurar {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo-pesquisa {
+    width: 340px;
+    height: 50px;
+    margin-right: 10px;
+    border: solid 2px #000;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 17px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #dedede;
+}
+
+.links{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-nos {
+    margin-top: 70px;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sobre-nos:hover {
+    color: #4040bd;
+    text-decoration: underline;
+}
+
+h1 {
+    width: fit-content;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    height: fit-content;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+h2{
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+p{
+    height: fit-content;
+}
+
+.resultados-pesquisa {
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+.item-resultado {
+    background: #d5d5d567; /* Cor de fundo dos itens */
+    border-radius: 20px solid #000; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    height: 200px;
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+.descricao-meta {
+    color: #000000; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+.produto{
+    background: #d5d5d567; /* Cor de fundo dos itens */
+    border-radius: 20px solid #000; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size: 38px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 10, 10);
+    height: 250px;
+    width: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+}
+
+#informacao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+#telefone {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: fit-content;
+    width: 100%;
+}
+
+.whatsapp{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.local{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.localizacao {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+}
+
+.ponteiro{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.instagram{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.perfil{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: fit-content;
+    width: 100%;
+}
+
+.app{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.localizacao:hover,#telefone:hover,.insta:hover{
+    color: #4040bd;
+    text-decoration: underline;
+    transition:step-start;
+}
+
+.mascote{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    height: 210px;
+    margin-right: 100px;
+}
